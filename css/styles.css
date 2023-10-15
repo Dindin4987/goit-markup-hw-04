@@ -11,6 +11,10 @@ h1 {
     margin-top: 0px;
     padding-top: 188px;
     padding-bottom: 292px;
+    background-image: url(../images/people-office-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(46, 47, 66, 0.7);
 }
 
 h1 > button {
@@ -239,7 +243,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
 .about-icon {
     padding: 24px 100px;
     text-align: center;
-    background-color: red;
+    background-color: #F4F4FD;
 }
 
 .team1 {
@@ -276,8 +280,21 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
 
 .clients-icon {
     display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 120px;
 }
 
+.client-icon {
+    border: solid 1px #8E8F99;
+    list-style: none;
+    padding: 16px 32px;
+}
+
+.client-icon:hover {
+    border-color: black;
+    background-color: #4D5AE5;
+}
 
 footer {
     background: var(--NAVY-BLUE, #2E2F42);
@@ -302,6 +319,22 @@ footer > h3:hover {
         color: teal;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
+
+.footer-container {
+    display: flex;
+}
+
+.footer-2 {
+    color: white;
+    margin-left: 170px;
+}
+
+.footer-team-socials {
+    display: flex;
+    margin-left: 170px;
+    gap: 15px;
+}
+
 
 .web1:hover {
     color:teal;
